@@ -6,4 +6,4 @@ mongoose.connect("mongodb://localhost/todo-api", {useNewUrlParser: true, useUnif
 
 mongoose.Promise = Promise;
 
-module.exports.Todo = require("./todo");
+module.exports.Todo = require("./todo.js");
